@@ -1,8 +1,8 @@
-import { Messaging } from './messaginhg';
-import { Order } from './order';
-import { Persistence } from './persistence';
-import { Product } from './Produto';
-import { ShoppingCart } from './shopping';
+import { Messaging } from './services/messaginhg';
+import { Order } from './entities/order';
+import { Persistence } from './services/persistence';
+import { Product } from './entities/Produto';
+import { ShoppingCart } from './entities/shopping';
 
 const cart = new ShoppingCart();
 const message = new Messaging();
